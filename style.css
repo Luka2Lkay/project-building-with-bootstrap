@@ -1,0 +1,312 @@
+
+
+.bg-color{
+    background-color: #f72210 !important;
+}
+
+body{
+  
+    margin: 0 auto;
+    box-sizing: border-box;
+    background-color: lightgray;
+    width: 95%;
+}
+
+.first-nav a{
+    color: white !important;
+    text-decoration: none;
+}
+
+.login-link{
+    margin-right: 20px;
+}
+
+.first-nav-1{
+    display: none;
+}
+
+span{
+    color: white;
+    margin-left: 5px;
+}
+
+date{
+    color: white;
+}
+
+.newsweek-style{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.subscribe-btn{
+    border-radius: 24px;
+    padding-right: 35px;
+    padding-left: 35px;
+    font-size: 24px;
+    line-height: 18px;
+    color: black;
+    background-color: yellow;
+    border:none;
+    margin-right: 20px;
+}
+
+.second-nav a{
+    font-weight: 700;
+    color: black !important;
+}
+
+.second-nav a:hover, .third-nav a:hover{
+    color: #f72210 !important;
+}
+
+.second-bg-color{
+    background-color: white !important;
+}
+
+.third-nav{
+    margin-top: 1px;
+}
+
+.third-nav a{
+    font-weight: 700;
+}
+
+section{
+    margin-top: 1px;
+    background-color: white;
+}
+
+.sub-topics{
+    font-weight: 500;
+    padding-top: 10px;
+    color: gray;
+}
+
+.container h5, .container h6{
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.img-para{
+    margin-top: -4px;
+    font-size: 13px;
+}
+
+.first{
+   
+    padding-top: 10px;
+    border-top: 1px solid gray;
+}
+
+.first a img{
+    margin-right: 5px;
+    float: left;
+}
+
+.first a{
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    float: left;
+    font-weight: 700;
+    border-bottom: 1px solid gray;
+    padding: 20px;
+}
+
+.first p{
+    margin-top: -30px;
+    float: left;
+    margin-left: 91px;
+    font-size: 12px;
+}
+
+.first span, .second span{
+    color: gray;
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.second a img{
+    float: right;
+    margin-left: 160px;
+    margin-top: -10px;
+    position: relative;
+}
+
+.second a{
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    float: right;
+    font-weight: 700;
+    border-top: 1px solid gray;
+    padding: 20px;
+    border-bottom: 1px solid gray;
+}   
+
+.second p{
+    font-size: 12px;
+    margin-top: -70px;
+    float: left;
+    margin-left: 20px;
+}
+
+.navbar-toggler{
+    background-color: yellow;
+    font-size: small;
+}
+
+.fourth-nav{
+    display: none;
+}
+
+@media screen and (max-width: 768px){
+   
+
+    .navbar-toggler{
+
+        display: none;
+    }
+
+    .first-nav, .second-nav, .third-nav{
+        display: none;
+    }
+
+    .fourth-nav{
+        display: block;
+        background-color: #f72210;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    
+    nav ul{
+        list-style-type: none;
+        display: flex;
+    }
+
+
+    nav ul li{  
+        padding-top: 15px;
+    }
+
+    nav ul li a{
+        color: lightgray;
+    }
+
+    nav ul li button{
+        margin: 0 10px 0 10px;
+        border-radius: 24px;
+        font-size: 14px;
+        padding: 0 10px 0 10px;
+        background-color: yellow;
+        border: none;
+    }
+
+    nav ul li:nth-child(3){
+        padding-right: 10px;
+    }
+
+    .fourth-nav h2{
+        padding-left: 10px;
+        font-weight: 700;
+        font-size: 23px;
+        color: white;
+    }
+
+    .pelosi-img{
+        width: 100%;
+        height: auto;
+    }
+
+    .mitch-img{
+        width: 100%;
+        height: auto;
+    }
+
+    .img-para{
+        text-align: justify;
+        font-size: 18px;
+   }
+
+   .second span, .first span, .first p, .second p{
+       display: none;
+    }
+
+    .fourth-nav a:hover, .fourth-nav button:hover{
+        color: white !important;
+    }
+
+    
+
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+
+    .first-nav, .second-nav, .third-nav{
+        display: none;
+    }
+    
+    .fourth-nav{
+        display: block;
+        background-color: #f72210;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    nav ul{
+        list-style-type: none;
+        display: flex;
+    }
+
+
+    nav ul li{  
+        padding-top: 15px;
+    }
+
+    nav ul li a{
+        color: lightgray;
+    }
+
+    nav ul li button{
+        margin: 0 10px 0 10px;
+        border-radius: 24px;
+        font-size: 14px;
+        padding: 0 10px 0 10px;
+        background-color: yellow;
+        border: none;
+    }
+
+    nav ul li:nth-child(3){
+        padding-right: 10px;
+    }
+
+    .fourth-nav h2{
+        padding-left: 10px;
+        font-weight: 700;
+        font-size: 23px;
+        color: white;
+}
+
+.second p{
+    font-size: 12px;
+    margin-top: -30px;
+    float: left;
+    margin-left: 360px;
+}
+
+.first a, .second a{
+    border: none;
+}
+
+.second p, .first p{
+    display: none;
+}   
+
+}
+
+
